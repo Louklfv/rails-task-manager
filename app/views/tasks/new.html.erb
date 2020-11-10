@@ -1,0 +1,7 @@
+<%= simple_form_for @task do |f| %>
+<%= f.input :title %>
+<%= f.input :details %>
+<%= f.input :completed %>
+<%= f.submit %>
+<% end %>
+<h3><%= link_to "⬅️ Back to your Tacks list", tasks_path %></h3>
